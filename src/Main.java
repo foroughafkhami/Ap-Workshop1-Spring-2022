@@ -9,5 +9,14 @@ public class Main {
         char op = scanner.next().charAt(0);
         int num2 = scanner.nextInt();
         double result;
+        if (op == '+') {
+            result = num1 + num2;
+        } else if (op == '-') {
+            result = num1 - num2;
+        } else if (op == '*') {
+            result = num1 * num2;
+        } else if (op == '/') {
+            result = (double) num1 / num2;
+        }
     }
 }

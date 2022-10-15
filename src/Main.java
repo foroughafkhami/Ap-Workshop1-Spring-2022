@@ -11,12 +11,18 @@ public class Main {
         double result;
         if (op == '+') {
             result = num1 + num2;
+            System.out.println(num1 + " + " + num2 + " = " + result);
         } else if (op == '-') {
             result = num1 - num2;
+            System.out.println(num1 + " - " + num2 + " = " + result);
         } else if (op == '*') {
             result = num1 * num2;
+            System.out.println(num1 + " * " + num2 + " = " + result);
         } else if (op == '/') {
             result = (double) num1 / num2;
+            System.out.println(num1 + " / " + num2 + " = " + result);
+        } else {
+            System.out.println("Operand is not defined");
         }
     }
 }
